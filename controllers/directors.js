@@ -1,5 +1,5 @@
 import {
-  fetchAlldirectors,
+  fetchAllDirectors,
   fetchDirectorById,
   insertDirector,
   modifyDirectorById,
