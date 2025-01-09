@@ -2,7 +2,7 @@
 import express from "express";
 import morgan from "morgan";
 
-import directorRouter from "./routes/director.js";
+import directorRouter from "./routes/directors.js";
 import movieRouter from "./routes/movies.js";
 
 // Initialize the express app
