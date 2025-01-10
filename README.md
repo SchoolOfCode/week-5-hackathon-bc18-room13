@@ -18,7 +18,7 @@ To see the route handlers take a look inside `app.js`.
 | GET    | /movies/:id |                        | Get a movies by ID | 200         |
 | POST   | /movies     | A movie object         | Create a new movie | 201         |
 | PATCH  | /movies/:id | A partial movie object | Update a movie     | 200         |
-| DELETE | /movies/:id |                        | Delete a movie     | 200         |
+| DELETE | /movies/:id |                        | Delete a movie     | 200 / 204   |
 
 | Method | Path           | Request Body              | Result                | Status Code |
 | ------ | -------------- | ------------------------- | --------------------- | ----------- |
@@ -26,4 +26,4 @@ To see the route handlers take a look inside `app.js`.
 | GET    | /directors/:id |                           | Get a director by ID  | 200         |
 | POST   | /directors     | A director object         | Create a new director | 201         |
 | PATCH  | /directors/:id | A partial director object | Update a director     | 200         |
-| DELETE | /directors/:id |                           | Delete a director     | 200         |
+| DELETE | /directors/:id |                           | Delete a director     | 200 / 204   |
